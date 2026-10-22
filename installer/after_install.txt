@@ -1,0 +1,11 @@
+Essence is installed to:  C:\Program Files\Common Files\VST3\Essence.vst3
+
+To use it in FL Studio:
+  1. Open FL Studio > Options > Manage plugins
+  2. Click "Find installed plugins" (make sure the VST3 folder above is in the scan list)
+  3. In the Plugin database, find Essence and add it to your favorites
+  4. Channel Rack > + > Essence
+
+180 sounds: pick a category tab, then click a sound. FL's preset arrows also step through all 180.
+
+sincerely your's - Reyaan

@@ -1,0 +1,14 @@
+ESSENCE (VST3) - get Essence_Setup.exe without installing anything
+
+1. On github.com create a NEW PRIVATE repository (name: Essence).
+2. Upload the CONTENTS of this folder (not the folder itself) so that CMakeLists.txt,
+   Source, installer and .github appear at the TOP of the repo.
+   If ".github" did not upload (hidden folder), click Add file > Create new file,
+   type  .github/workflows/build.yml  as the name, and paste the text from
+   PASTE_THIS_INTO_github-workflows-build.yml.txt, then Commit.
+3. Open the Actions tab > "Build Essence installer" > Run workflow
+   (click the green "enable workflows" button first if GitHub asks).
+4. After ~5-10 min open the finished run, download "Essence_Setup", unzip it,
+   run Essence_Setup.exe, then in FL Studio: Options > Manage plugins > Find installed plugins.
+
+If the build fails, send me the red error lines from the log.
